@@ -1,0 +1,14 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "include": [
+        "typings/**/*",
+        "**/*.ts",
+        "**/*.d.ts",
+        "./**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules",
+        "tests/server/**/*.ts",
+        "**/*.js"
+    ]
+}
